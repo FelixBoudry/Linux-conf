@@ -36,12 +36,9 @@ cat signal-desktop-keyring.gpg | sudo tee -a /usr/share/keyrings/signal-desktop-
 echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
   sudo tee -a /etc/apt/sources.list.d/signal-xenial.list
 
-# 3. Update your package database and install signal
-sudo apt update && sudo apt install signal-desktop
-
 sudo apt-get update
 sudo apt-get -y upgrade
-sudo apt-get install -y geary gparted solaar gnome-shell-extensions gnome-software htop vim emacs python3 python3-pip jupyter r-base nextcloud-desktop retext tor signal transmission libreoffice texworks gnome-shell-extension-gsconnect vlc firefox
+sudo apt-get install -y geary gparted solaar gnome-shell-extensions gnome-software htop vim emacs python3 python3-pip jupyter r-base nextcloud-desktop retext tor signal-desktop transmission libreoffice texworks gnome-shell-extension-gsconnect vlc firefox
 
 sudo snap refresh
 sudo snap install  discord electronplayer spotify joplin
