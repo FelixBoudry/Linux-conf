@@ -41,4 +41,4 @@ sudo apt-get -y upgrade
 sudo apt-get install -y geary gparted solaar gnome-shell-extensions gnome-software htop vim emacs python3 python3-pip jupyter r-base nextcloud-desktop retext tor signal-desktop transmission libreoffice texworks gnome-shell-extension-gsconnect vlc firefox
 
 sudo snap refresh
-sudo snap install  discord electronplayer spotify joplin
+sudo snap install  discord electronplayer spotify joplin gh
